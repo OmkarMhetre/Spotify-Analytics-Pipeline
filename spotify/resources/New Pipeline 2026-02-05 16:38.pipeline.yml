@@ -1,0 +1,11 @@
+resources:
+  pipelines:
+    New_Pipeline_2026_02_05_16_38:
+      name: New Pipeline 2026-02-05 16:38
+      libraries:
+        - glob:
+            include: ../src/New Pipeline 2026-02-05 16:38/transformations/**
+      serverless: true
+      catalog: spotify
+      schema: ${workspace.current_user.short_name}
+      root_path: ../src/New Pipeline 2026-02-05 16:38
